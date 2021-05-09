@@ -2,7 +2,8 @@
 	"name": "discordjs-helper",
 	"displayName": "Discord.js Helper",
 	"description": "Helper for Discord bots development with Discord.js",
-	"version": "1.0.0",
+	"version": "1.0.1",
+	"publisher": "Snowflake107",
 	"engines": {
 		"vscode": "^1.56.0"
 	},
@@ -20,6 +21,10 @@
 				"title": "Discord.js Documentation"
 			}
 		]
+	},
+	"repository": {
+		"url": "git+https://github.com/DevSnowflake/vscode-discord.js-helper.git",
+		"type": "git"
 	},
 	"scripts": {
 		"vscode:prepublish": "yarn run package",
@@ -52,5 +57,10 @@
 	},
 	"dependencies": {
 		"axios": "^0.21.1"
+	},
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#7289da",
+		"theme": "dark"
 	}
 }
