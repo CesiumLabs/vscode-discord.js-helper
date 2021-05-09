@@ -2,7 +2,7 @@
 	"name": "discordjs-helper",
 	"displayName": "Discord.js Helper",
 	"description": "Helper for Discord bots development with Discord.js",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.56.0"
 	},
