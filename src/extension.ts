@@ -99,17 +99,17 @@ async function showDocs(data: any, source: string) {
 
             // methods
             if (cls.methods) {
-                cls.methods.map((m: any) => arr.push({ label: `${cls.name}:m-${m.name}`, details: m.description, url: `${buildSrc(source)}/class/${cls.name}?scrollTo=${m.name}` }));
+                cls.methods.forEach((m: any) => arr.push({ label: `${cls.name}:m-${m.name}`, details: m.description, url: `${buildSrc(source)}/class/${cls.name}?scrollTo=${m.name}` }));
             }
 
             // properties
             if (cls.props) {
-                cls.props.map((m: any) => arr.push({ label: `${cls.name}:p-${m.name}`, details: m.description, url: `${buildSrc(source)}/class/${cls.name}?scrollTo=${m.name}` }));
+                cls.props.forEach((m: any) => arr.push({ label: `${cls.name}:p-${m.name}`, details: m.description, url: `${buildSrc(source)}/class/${cls.name}?scrollTo=${m.name}` }));
             }
 
             // events
             if (cls.events) {
-                cls.events.map((m: any) => arr.push({ label: `${cls.name}:e-${m.name}`, details: m.description, url: `${buildSrc(source)}/class/${cls.name}?scrollTo=e-${m.name}` }));
+                cls.events.forEach((m: any) => arr.push({ label: `${cls.name}:e-${m.name}`, details: m.description, url: `${buildSrc(source)}/class/${cls.name}?scrollTo=e-${m.name}` }));
             }
         });
     }

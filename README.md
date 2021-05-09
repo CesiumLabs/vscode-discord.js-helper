@@ -1,4 +1,4 @@
-# discordjs-helper README
+# discordjs-helper
 
 Discord.js Helper is a VSCode extension that allows you to easily work on **[discord.js](https://discord.js.org)** bot development.
 
