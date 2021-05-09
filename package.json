@@ -10,6 +10,13 @@
 	"categories": [
 		"Other"
 	],
+	"keywords": [
+		"discord",
+		"vscode",
+		"discord.js",
+		"discordbot",
+		"discord-snippet"
+	],
 	"activationEvents": [
 		"onCommand:discordjs-helper.docs"
 	],
